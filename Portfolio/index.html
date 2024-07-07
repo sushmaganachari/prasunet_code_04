@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">My Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hello,My name is <span class="purple"> Sushma </span>
+          <div>I am a passionate</div>
+          <span id="element">Front End development</span>
+        </div>
+
+        <div class="rightSection">
+          <img src="image.2.jpg" alt="Loading" />
+        </div>
+      </section>
+      <hr />
+
+      <section>
+        <div class="about" id="About">
+          <div class="about-img">
+            <img src="image.png" class="abt-res" />
+          </div>
+          <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p>
+              I'm a engineering student specialized in 
+               Engineering. Along with my degree, I am learning
+              C, SQL, Java, Web development courses and various technologies.
+              I am currently seeking roles where I can utilize my experience and skill.<br />
+              <br />
+              <a
+                href="./Sushma_Ganachari_Resume..pdf"
+                style="--i: 11"
+                class="abtbtn-box"
+                target="_blank"
+                >Download Resume</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <hr />
+
+      <div class="main-section" >
+        <div class="container">
+          <h2 class="heading-text">My Skills</h2>
+          <div class="width-50" >
+            <div class="Skill" id="Skills">
+              <b>HTML</b>
+              <span>95%</span>
+              <div>
+                <span style="width:95%"></span>
+              </div>
+            </div>
+            <div class="skill">
+              <b>CSS</b>
+              <span>90%</span>
+              <div>
+                <span style="width:91%"></span>
+              </div>
+            </div>
+            <div class="skill">
+              <b>JavaScript</b>
+              <span>75%</span>
+              <div>
+                <span style="width:80%"></span>
+              </div>
+            </div>
+            <div class="skill">
+              <b>Bootstrap</b>
+              <span>70%</span>
+              <div>
+                <span style="width:70%"></span>
+              </div>
+            </div>
+          </div>
+      <hr />
+      
+      <section class="project" id="Project">
+        <div class="container">
+        <h1 class="project-head">Projects</h1>
+        <p>All my projects based on WEB development.</p>
+        <div class="card-grid">
+        <div class="card">
+        <img src="./Weather.png">
+        <h2>Weather App</h2>
+        <p>Developing a weather web application involves creating a user-friendly interface to display weather information retrieved from an external API</p>
+        </div>
+        <div class="card">
+        <img src="./Stopclock.png">
+        <h2>Stop clock</h2>
+        <p>A stopclock web application, often referred to as a stopwatch, is a digital tool designed to measure the amount of time that elapses between its activation and deactivation</p>
+        </div>
+        <div class="card">
+        <img src="./Tic Tac Toc.png">
+        <h2>Tic-Tac-Toe</h2>
+        <p>Creating a front-end for a Tic Tac Toe web application involves designing an interactive and responsive user interface using HTML, CSS, and JavaScript</p>
+        </div>
+        </div>
+        </div>
+        </section>
+        <hr />
+      <section class="contacts" id="Contact">
+        <div class="contact-text">
+          <h2>Contact <span>Me</span></h2>
+          <div class="contact-list">
+            <li><i class="bx bxs-send"></i>ssganacharis@gmail.com</li>
+            <li><i class="bx bxs-phone-call"></i>7204466584</li>
+          </div>
+
+
+          <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/sushma-ganachari"style="--i:7" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href=https://www.hackerrank.com/profile/ssganacharis"style="--i:8" target="_blank">
+              <i class='bx bx-code-block'></i></a>
+            <a href="https://leetcode.com/Sushmaganachari/"style="--i:9" target="_blank">
+              <i class='bx bx-code-alt' ></i></a>
+                    <a href="https://github.com/sushmaganachari"style="--i:10" target="_blank"><i class='bx bxl-github'></i></a>
+                    
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="last-text">
+      <p>
+        Developed by @Sushma!
+        <i class="bx bx-copyright" style="color: white"></i>
+      </p>
+    </div>
+    <a href="#Home" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Front end developer "],
+        typeSpeed: 50,
+      });
+      // const toTop = document.querySelector(".top");
+      // window.addEventListener("scroll", () => {
+      //   if (window.pageYOffset > 100) {
+      //     toTop.classList.add("active");
+      //   } else {
+      //     toTop.classList.remove("active");
+      //   }
+      // });
+    </script>
+  </body>
+</html>
